@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 Formula 1 Drivers</title>
+    <link rel="stylesheet" href="f1-styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt="Formula 1 Logo" class="f1-logo">
+            <div>
+                <h1>2025 Formula 1 Drivers</h1>
+                <p class="subtitle">Meet the drivers competing in the 2025 F1 World Championship</p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="controls">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search drivers or teams...">
+        </div>
+        <div class="filter-container">
+            <select id="teamFilter">
+                <option value="all">All Teams</option>
+            </select>
+        </div>
+    </nav>
+
+    <main>
+        <div id="drivers-container" class="drivers-grid">
+            <!-- Driver cards will be inserted here by JavaScript -->
+        </div>
+        <div id="no-results" class="no-results" style="display: none;">
+            <p>No drivers found matching your search.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Formula 1 Drivers</p>
+        <p>Tandagan, Kyle</p>
+    </footer>
+
+    <script src="f1-script.js"></script>
+</body>
+</html>
